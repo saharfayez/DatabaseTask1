@@ -1,8 +1,10 @@
 -- Insert INTO User (UserName,UserAge,UserGraduationYear,UserGender,UserId,UserIdType)
--- VALUES ('salma',27,2020,'female',2,'NID');
+
+-- VALUES ('sahar',22,2024,'female',1,'NID'), ('salma',27,2020,'female',2,'NID');
 
 -- Insert INTO Device (DeviceName,DeviceType,DeviceMacAddress,UserId,UserIdType)
--- VALUES ('Laptop','Mac',5555,2,'NID');
+
+-- VALUES ('Laptop','Lenovo',1111,1'NID') , ('Laptop','Mac',5555,2,'NID') ;
 
 -- select * from Device;
 
@@ -21,17 +23,3 @@
 -- DELETE User FROM User JOIN Device
 -- WHERE User.UserId = Device.UserId
 -- AND Device.DeviceType='Mac';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
