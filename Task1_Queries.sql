@@ -12,9 +12,9 @@
 
 -- select * from User where UserId=1;
 
--- select count(UserId)
--- from Device
--- where UserId=1;
+-- SELECT User.UserId , count(Device.UserId) AS NumberOfDevices FROM Device
+-- join User on User.UserId= Device.UserId
+-- GROUP BY User.UserId;
 
 -- DELETE from User where UserId=2;
 
